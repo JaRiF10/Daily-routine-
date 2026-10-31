@@ -1,0 +1,6 @@
+{
+  "name": "Calm Flow Productivity",
+  "description": "A focused, distraction-free productivity and task workspace engineered with elevated minimalism, ambient flow sessions, and Kanban planning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

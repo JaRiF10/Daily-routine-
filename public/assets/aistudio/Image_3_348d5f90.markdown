@@ -1,0 +1,220 @@
+---
+name: Calm Flow Productivity
+colors:
+  surface: '#fbf8ff'
+  surface-dim: '#dad9e3'
+  surface-bright: '#fbf8ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f4f2fd'
+  surface-container: '#eeedf7'
+  surface-container-high: '#e8e7f1'
+  surface-container-highest: '#e3e1ec'
+  on-surface: '#1a1b22'
+  on-surface-variant: '#464555'
+  inverse-surface: '#2f3038'
+  inverse-on-surface: '#f1effa'
+  outline: '#777587'
+  outline-variant: '#c7c4d8'
+  surface-tint: '#4d44e3'
+  primary: '#3525cd'
+  on-primary: '#ffffff'
+  primary-container: '#4f46e5'
+  on-primary-container: '#dad7ff'
+  inverse-primary: '#c3c0ff'
+  secondary: '#006c4a'
+  on-secondary: '#ffffff'
+  secondary-container: '#82f5c1'
+  on-secondary-container: '#00714e'
+  tertiary: '#950029'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#c20038'
+  on-tertiary-container: '#ffd0d2'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#e2dfff'
+  primary-fixed-dim: '#c3c0ff'
+  on-primary-fixed: '#0f0069'
+  on-primary-fixed-variant: '#3323cc'
+  secondary-fixed: '#85f8c4'
+  secondary-fixed-dim: '#68dba9'
+  on-secondary-fixed: '#002114'
+  on-secondary-fixed-variant: '#005137'
+  tertiary-fixed: '#ffdada'
+  tertiary-fixed-dim: '#ffb3b6'
+  on-tertiary-fixed: '#40000c'
+  on-tertiary-fixed-variant: '#920028'
+  background: '#fbf8ff'
+  on-background: '#1a1b22'
+  surface-variant: '#e3e1ec'
+typography:
+  display-lg:
+    fontFamily: Geist
+    fontSize: 2.25rem
+    fontWeight: '600'
+    lineHeight: 2.75rem
+    letterSpacing: -0.025em
+  headline-lg:
+    fontFamily: Geist
+    fontSize: 1.75rem
+    fontWeight: '600'
+    lineHeight: 2.25rem
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Geist
+    fontSize: 1.375rem
+    fontWeight: '600'
+    lineHeight: 1.875rem
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Geist
+    fontSize: 1.25rem
+    fontWeight: '500'
+    lineHeight: 1.75rem
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Geist
+    fontSize: 1.125rem
+    fontWeight: '500'
+    lineHeight: 1.625rem
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Geist
+    fontSize: 1rem
+    fontWeight: '400'
+    lineHeight: 1.5rem
+    letterSpacing: -0.005em
+  body-md:
+    fontFamily: Geist
+    fontSize: 0.875rem
+    fontWeight: '400'
+    lineHeight: 1.375rem
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Geist
+    fontSize: 0.8125rem
+    fontWeight: '400'
+    lineHeight: 1.25rem
+    letterSpacing: 0.005em
+  label-md:
+    fontFamily: Geist
+    fontSize: 0.875rem
+    fontWeight: '500'
+    lineHeight: 1.25rem
+    letterSpacing: 0.005em
+  label-sm:
+    fontFamily: Geist
+    fontSize: 0.75rem
+    fontWeight: '500'
+    lineHeight: 1rem
+    letterSpacing: 0.01em
+  label-xs:
+    fontFamily: Geist
+    fontSize: 0.6875rem
+    fontWeight: '600'
+    lineHeight: 0.875rem
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-md: 1.5rem
+  margin: 1rem
+  margin-md: 2rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1.25rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+The design system establishes a focused, calm, and distraction-free productivity environment. Tailored for knowledge workers, developers, and product teams, it reduces cognitive friction while reinforcing momentum and accomplishment through intentional visual feedback.
+
+The aesthetic blends **Elevated Minimalism** with structured workspace utility:
+- **Calm & Measured:** Generous negative space, restrained tonal shifts, and an absence of loud visual noise promote prolonged cognitive stamina.
+- **Micro-Delight through Precision:** Hairline borders, precise typographic alignment, and gentle status shifts celebrate progress without overwhelming the user.
+- **Warm Neutrality:** Instead of stark, clinical coldness, light surfaces lean on balanced zinc and warm off-white backdrops to keep interfaces natural and human.
+
+## Colors
+
+The palette employs a grounded balance between quiet neutrals and high-intent semantic accents:
+
+- **Canvas & Surfaces:**
+  - Base canvas uses off-white `#fafafa`, transitioning to pure white `#ffffff` for elevated cards and modals to create distinct focal planes.
+  - Secondary containers, subtle table headers, and inactive states sit on tinted zinc neutrals (`#f4f4f5` to `#e4e4e7`).
+- **Primary Accent (`#4f46e5` - Indigo):** Reserved for core interactive triggers, focused inputs, active filter states, and primary CTAs.
+- **Success Accent (`#059669` - Emerald):** Deployed for completed tasks, milestone progress bars, and affirmative confirmations.
+- **Destructive Accent (`#e11d48` - Rose):** Applied selectively to task deletion, critical warnings, and overdue indicators to ensure immediate recognition without harsh alarmism.
+- **Neutrals & Text:** Primary body and headings leverage deep slate/zinc `#18181b` for maximum contrast and legibility, while metadata, timestamps, and secondary captions sit at `#71717a`.
+
+## Typography
+
+The type system is powered by **Geist** across all roles, capitalizing on its structural neutrality, modern geometric clarity, and high data density suitability:
+
+- **Hierarchy & Rhythm:** Tightly-tracked headings (`-0.025em` to `-0.015em`) ground views with intentional editorial weight, while body text maintains neutral tracking to optimize multi-line scanning across descriptions and task logs.
+- **Contextual Roles:** `label-xs` is uppercase-tracked for project tags, keyboard shortcuts, and meta chips. `body-sm` handles secondary details such as due dates and subtask counters without visually conflicting with parent task titles.
+
+## Layout & Spacing
+
+A disciplined 8-point base grid drives spacing decisions, enhanced with a 4-point micro-scale (`space-xs`) for dense productivity UI elements (badges, nested list markers, and input paddings):
+
+- **Grid Architecture:** 
+  - **Desktop (≥1024px):** Fixed left navigation (240px) or collapsible rail (64px) with a fluid multi-column workspace or Kanban board utilizing `gutter-md` (1.5rem) and outer `margin-md` (2rem). Content containers cap at max-width 1280px for standard list views to prevent awkward horizontal drift.
+  - **Tablet (768px - 1023px):** Fluid single/double column with collapsible panels; 1rem gutters and 1.5rem margins.
+  - **Mobile (<768px):** Single-column stack, edge-to-edge scroll zones, bottom action sheets, and tight 1rem margins.
+- **Micro-Spacing:** Gaps within task row components adhere strictly to `space-sm` (8px) between checkboxes and text, and `space-md` (12px) between card sections, ensuring tightly grouped information hierarchy.
+
+## Elevation & Depth
+
+Visual separation relies on **low-contrast outlines complemented by subtle ambient shadows**:
+
+- **Borders over Mass:** Structural definition is primary achieved via a crisp 1px hairline border (`#e4e4e7` / Zinc 200). In dark-tinted or active states, borders step to `#d4d4d8` (Zinc 300).
+- **Ambient Shadow Tiers:**
+  - **Level 0 (Flat):** Flush layout blocks and static lists rely solely on surface tinting and hairline dividers.
+  - **Level 1 (Card / Resting):** `0 1px 2px 0 rgba(24, 24, 27, 0.04), 0 1px 3px 0 rgba(24, 24, 27, 0.03)` with a 1px border.
+  - **Level 2 (Hover / Active Drag):** `0 4px 6px -1px rgba(24, 24, 27, 0.06), 0 2px 4px -2px rgba(24, 24, 27, 0.04)`. Card border transitions to an indigo-tinted slate.
+  - **Level 3 (Overlay / Menus / Modals):** `0 10px 15px -3px rgba(24, 24, 27, 0.08), 0 4px 6px -4px rgba(24, 24, 27, 0.03)`.
+
+## Shapes
+
+The design system adopts **Soft roundedness (`roundedness: 1`)** to produce an engineered, functional environment that feels precise rather than toy-like:
+
+- **Base Radius (0.25rem / 4px):** Form controls, text inputs, badges, task checkboxes, and tooltips.
+- **Medium Radius (`rounded-lg` - 0.5rem / 8px):** Task cards, dropdown sheets, contextual menus, and interactive list groups.
+- **Large Radius (`rounded-xl` - 0.75rem / 12px):** Global modals, drawer panels, and elevated floating command palettes (e.g., Quick Add / Search `Cmd+K`).
+
+## Components
+
+### Task Cards
+- **Container:** Pure white `#ffffff` background with 1px border (`#e4e4e7`), 8px radius (`rounded-lg`), resting Level 1 shadow.
+- **Padding:** 12px vertical by 16px horizontal for standard lists; 16px uniform for Kanban boards.
+- **States:** Hover brings a 1px border transition to `#d4d4d8` and Level 2 elevation. Completed tasks trigger a smooth cross-fade: text transitions to `line-through` with `#a1a1aa`, while the container reduces opacity to `0.75`.
+
+### Buttons
+- **Primary:** `#4f46e5` background, white text, 4px radius, 0.5px subtle top inner highlight. Hover: `#4338ca`. Active: slight 0.98 scale compression.
+- **Secondary / Ghost:** Transparent background, 1px border (`#e4e4e7`), `#18181b` text. Hover: `#f4f4f5` background.
+- **Destructive:** Subtle rose wash (`#fff1f2`), `#e11d48` text and border. Hover: `#ffe4e6`.
+
+### Checkboxes
+- **Frame:** 18x18px square with 4px border-radius, 1.5px border (`#d4d4d8`).
+- **Checked (Complete):** Animated background fill to emerald `#059669`, white SVG checkmark scaled from center, border becomes `#059669`.
+
+### Chips & Badges
+- **Tag Style:** Height of 22px, padding 0 8px, `label-xs` typography, 4px radius.
+- **Variants:** Neutral (`#f4f4f5` bg, `#52525b` text), Priority High (`#fff1f2` bg, `#e11d48` text), Completed (`#ecfdf5` bg, `#059669` text).
+
+### Form Inputs & Quick-Add
+- **Input Fields:** 36px height, pure white surface, 1px border (`#e4e4e7`), inset shadow `0 1px 2px rgba(0,0,0,0.02)`. Focus: border switches to `#4f46e5` with a 2px outer glow (`rgba(79, 70, 229, 0.15)`).
+- **Inline Quick Add:** Minimalist input seamlessly embedded at the base of task lists, activated via `Enter` to create rapid low-friction capture loops.
+
+### Lists & Drag Handlers
+- **Groupings:** Separated by sticky section headers featuring uppercase `label-xs` typography and subtle item count pills.
+- **Reordering:** Subtle six-dot drag indicator (`#a1a1aa`) revealed on row hover, triggering Level 2 elevation and a slight tilt during repositioning.
